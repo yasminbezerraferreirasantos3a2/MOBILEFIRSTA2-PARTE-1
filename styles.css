@@ -20,26 +20,3 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-
-.button {
-  background: linear-gradient(97.54deg, #6a0dad 35.49%, #ff69b4 165.37%);
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.button:hover {
-  background: linear-gradient(97.54deg, #ff69b4 35.49%, #6a0dad 165.37%);
-  transform: scale(1.05);
-}
-
-.button:active {
-  transform: scale(0.98);
-}
